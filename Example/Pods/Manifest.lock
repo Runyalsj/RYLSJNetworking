@@ -1,0 +1,16 @@
+PODS:
+  - RYLSJNetworking (0.1.0)
+
+DEPENDENCIES:
+  - RYLSJNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  RYLSJNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RYLSJNetworking: 86f8bca8261a74fa47e106aa018f8fd752dda40d
+
+PODFILE CHECKSUM: aeeb10e7921eb76b1ba51d8c8cf204e75b46697d
+
+COCOAPODS: 1.7.5

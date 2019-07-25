@@ -1,0 +1,22 @@
+{
+  "name": "RYLSJNetworking",
+  "version": "0.1.0",
+  "summary": "A short description of RYLSJNetworking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/RunyaLsj/RYLSJNetworking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "RunyaLsj": "wangrunya@910app.com"
+  },
+  "source": {
+    "git": "https://github.com/RunyaLsj/RYLSJNetworking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RYLSJNetworking/Classes/**/*"
+}

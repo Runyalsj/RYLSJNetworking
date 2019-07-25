@@ -1,0 +1,6 @@
+framework module RYLSJNetworking {
+  umbrella header "RYLSJNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
