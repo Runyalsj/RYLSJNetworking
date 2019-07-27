@@ -1,15 +1,15 @@
 {
   "name": "RYLSJNetworking",
   "version": "0.1.0",
-  "summary": "A short description of RYLSJNetworking.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/RunyaLsj/RYLSJNetworking",
+  "summary": "RYLSJNetworking",
+  "description": "RYLSJNetworking 基于AFNetworking 封装的网络请求框架",
+  "homepage": "https://github.com/Runyalsj",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "RunyaLsj": "wangrunya@910app.com"
+    "RunyaLsj": "RunyaLsj@163.com"
   },
   "source": {
     "git": "https://github.com/RunyaLsj/RYLSJNetworking.git",
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "RYLSJNetworking/Classes/**/*"
+  "source_files": "RYLSJNetworking/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
 }
