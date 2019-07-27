@@ -7,12 +7,25 @@
 //
 
 #import "RYLSJ_AppDelegate.h"
+#import "RYLSJ_HomeViewController.h"
+#import "RYLSJ_Networking.h"
 
 @implementation RYLSJ_AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    NSString *cachePath = [[RYLSJ_CacheManager sharedInstance] RYLSJ_KitPath];
+    NSLog(@"cachePath = %@",cachePath);
+    
+    
+    RYLSJ_HomeViewController *home = [[RYLSJ_HomeViewController alloc]init];
+    UINavigationController *nc=[[UINavigationController alloc]initWithRootViewController:home];
+    
+    self.window.rootViewController = nc;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

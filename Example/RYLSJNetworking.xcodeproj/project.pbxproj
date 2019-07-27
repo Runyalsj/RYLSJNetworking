@@ -14,7 +14,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* RYLSJ_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* RYLSJ_AppDelegate.m */; };
-		6003F5A7195388D20070C39A /* RYLSJ_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* RYLSJ_ViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -23,7 +22,14 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		929ED22CFC51C1F15A1B3FAE /* Pods_RYLSJNetworking_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF86D33B127E09174A018378 /* Pods_RYLSJNetworking_Tests.framework */; };
+		9BD5D2D022EC656E0069CC4D /* RYLSJ_RequestEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5D2CF22EC656E0069CC4D /* RYLSJ_RequestEngine.m */; };
+		9BD5D2D322EC65F60069CC4D /* RYLSJ_URLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5D2D222EC65F60069CC4D /* RYLSJ_URLRequest.m */; };
+		9BD5D2D622EC67D70069CC4D /* NSString+RYLSJ_UTF8Encoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5D2D522EC67D70069CC4D /* NSString+RYLSJ_UTF8Encoding.m */; };
+		9BD5D2D922EC69300069CC4D /* RYLSJ_CacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5D2D822EC69300069CC4D /* RYLSJ_CacheManager.m */; };
+		9BD5D2DD22EC6DA60069CC4D /* RYLSJ_BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5D2DC22EC6DA60069CC4D /* RYLSJ_BaseViewController.m */; };
+		9BD5D2E022EC6E6F0069CC4D /* RYLSJ_HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5D2DF22EC6E6F0069CC4D /* RYLSJ_HomeViewController.m */; };
+		9BD5D2E322EC6FEC0069CC4D /* RYLSJ_RootModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5D2E222EC6FEC0069CC4D /* RYLSJ_RootModel.m */; };
+		ABD3EB2A22E9BDE000CF2B50 /* RYLSJ_RequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD3EB2922E9BDE000CF2B50 /* RYLSJ_RequestManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03E02C576E74BCA5CAB00164 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		0D2DF0A83477816C35582FD4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		17791A37F69AAA4097D049E9 /* Pods-RYLSJNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYLSJNetworking_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RYLSJNetworking_Tests/Pods-RYLSJNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		23EECF682A21EDBD876B08B6 /* Pods-RYLSJNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYLSJNetworking_Tests.release.xcconfig"; path = "Target Support Files/Pods-RYLSJNetworking_Tests/Pods-RYLSJNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		03E02C576E74BCA5CAB00164 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0D2DF0A83477816C35582FD4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		337AFC6D72E82C5F0CEDA40E /* Pods_RYLSJNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYLSJNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* RYLSJNetworking_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYLSJNetworking_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,8 +56,6 @@
 		6003F59B195388D20070C39A /* RYLSJNetworking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RYLSJNetworking-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* RYLSJ_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYLSJ_AppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* RYLSJ_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYLSJ_AppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* RYLSJ_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYLSJ_ViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* RYLSJ_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYLSJ_ViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* RYLSJNetworking_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYLSJNetworking_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -63,10 +65,27 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BD5D2CE22EC656E0069CC4D /* RYLSJ_RequestEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYLSJ_RequestEngine.h; sourceTree = "<group>"; };
+		9BD5D2CF22EC656E0069CC4D /* RYLSJ_RequestEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYLSJ_RequestEngine.m; sourceTree = "<group>"; };
+		9BD5D2D122EC65F60069CC4D /* RYLSJ_URLRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYLSJ_URLRequest.h; sourceTree = "<group>"; };
+		9BD5D2D222EC65F60069CC4D /* RYLSJ_URLRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYLSJ_URLRequest.m; sourceTree = "<group>"; };
+		9BD5D2D422EC67D70069CC4D /* NSString+RYLSJ_UTF8Encoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+RYLSJ_UTF8Encoding.h"; sourceTree = "<group>"; };
+		9BD5D2D522EC67D70069CC4D /* NSString+RYLSJ_UTF8Encoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+RYLSJ_UTF8Encoding.m"; sourceTree = "<group>"; };
+		9BD5D2D722EC69300069CC4D /* RYLSJ_CacheManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYLSJ_CacheManager.h; sourceTree = "<group>"; };
+		9BD5D2D822EC69300069CC4D /* RYLSJ_CacheManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYLSJ_CacheManager.m; sourceTree = "<group>"; };
+		9BD5D2DA22EC69BD0069CC4D /* RYLSJ_Networking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYLSJ_Networking.h; sourceTree = "<group>"; };
+		9BD5D2DB22EC6DA60069CC4D /* RYLSJ_BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYLSJ_BaseViewController.h; sourceTree = "<group>"; };
+		9BD5D2DC22EC6DA60069CC4D /* RYLSJ_BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYLSJ_BaseViewController.m; sourceTree = "<group>"; };
+		9BD5D2DE22EC6E6F0069CC4D /* RYLSJ_HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYLSJ_HomeViewController.h; sourceTree = "<group>"; };
+		9BD5D2DF22EC6E6F0069CC4D /* RYLSJ_HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYLSJ_HomeViewController.m; sourceTree = "<group>"; };
+		9BD5D2E122EC6FEC0069CC4D /* RYLSJ_RootModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYLSJ_RootModel.h; sourceTree = "<group>"; };
+		9BD5D2E222EC6FEC0069CC4D /* RYLSJ_RootModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYLSJ_RootModel.m; sourceTree = "<group>"; };
 		A879D63417DFCDC3EEB87765 /* Pods-RYLSJNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYLSJNetworking_Example.debug.xcconfig"; path = "Target Support Files/Pods-RYLSJNetworking_Example/Pods-RYLSJNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ABD3EB2822E9BDE000CF2B50 /* RYLSJ_RequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYLSJ_RequestManager.h; sourceTree = "<group>"; };
+		ABD3EB2922E9BDE000CF2B50 /* RYLSJ_RequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYLSJ_RequestManager.m; sourceTree = "<group>"; };
+		ABD3EB2C22E9BED100CF2B50 /* RYLSJ_RequestConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RYLSJ_RequestConst.h; sourceTree = "<group>"; };
 		BF16477953D7045D1B83EE9E /* Pods-RYLSJNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYLSJNetworking_Example.release.xcconfig"; path = "Target Support Files/Pods-RYLSJNetworking_Example/Pods-RYLSJNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D1CF42B865B100A3839080F4 /* RYLSJNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RYLSJNetworking.podspec; path = ../RYLSJNetworking.podspec; sourceTree = "<group>"; };
-		FF86D33B127E09174A018378 /* Pods_RYLSJNetworking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYLSJNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1CF42B865B100A3839080F4 /* RYLSJNetworking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RYLSJNetworking.podspec; path = ../RYLSJNetworking.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +107,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				929ED22CFC51C1F15A1B3FAE /* Pods_RYLSJNetworking_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +142,6 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				337AFC6D72E82C5F0CEDA40E /* Pods_RYLSJNetworking_Example.framework */,
-				FF86D33B127E09174A018378 /* Pods_RYLSJNetworking_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,11 +149,16 @@
 		6003F593195388D20070C39A /* Example for RYLSJNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				ABD3EB2722E9BD0800CF2B50 /* RYLSJNetworking */,
 				6003F59C195388D20070C39A /* RYLSJ_AppDelegate.h */,
 				6003F59D195388D20070C39A /* RYLSJ_AppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* RYLSJ_ViewController.h */,
-				6003F5A6195388D20070C39A /* RYLSJ_ViewController.m */,
+				9BD5D2DB22EC6DA60069CC4D /* RYLSJ_BaseViewController.h */,
+				9BD5D2DC22EC6DA60069CC4D /* RYLSJ_BaseViewController.m */,
+				9BD5D2DE22EC6E6F0069CC4D /* RYLSJ_HomeViewController.h */,
+				9BD5D2DF22EC6E6F0069CC4D /* RYLSJ_HomeViewController.m */,
+				9BD5D2E122EC6FEC0069CC4D /* RYLSJ_RootModel.h */,
+				9BD5D2E222EC6FEC0069CC4D /* RYLSJ_RootModel.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -190,11 +212,27 @@
 			children = (
 				A879D63417DFCDC3EEB87765 /* Pods-RYLSJNetworking_Example.debug.xcconfig */,
 				BF16477953D7045D1B83EE9E /* Pods-RYLSJNetworking_Example.release.xcconfig */,
-				17791A37F69AAA4097D049E9 /* Pods-RYLSJNetworking_Tests.debug.xcconfig */,
-				23EECF682A21EDBD876B08B6 /* Pods-RYLSJNetworking_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		ABD3EB2722E9BD0800CF2B50 /* RYLSJNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				ABD3EB2822E9BDE000CF2B50 /* RYLSJ_RequestManager.h */,
+				ABD3EB2922E9BDE000CF2B50 /* RYLSJ_RequestManager.m */,
+				ABD3EB2C22E9BED100CF2B50 /* RYLSJ_RequestConst.h */,
+				9BD5D2CE22EC656E0069CC4D /* RYLSJ_RequestEngine.h */,
+				9BD5D2CF22EC656E0069CC4D /* RYLSJ_RequestEngine.m */,
+				9BD5D2D122EC65F60069CC4D /* RYLSJ_URLRequest.h */,
+				9BD5D2D222EC65F60069CC4D /* RYLSJ_URLRequest.m */,
+				9BD5D2D722EC69300069CC4D /* RYLSJ_CacheManager.h */,
+				9BD5D2D822EC69300069CC4D /* RYLSJ_CacheManager.m */,
+				9BD5D2DA22EC69BD0069CC4D /* RYLSJ_Networking.h */,
+				9BD5D2D422EC67D70069CC4D /* NSString+RYLSJ_UTF8Encoding.h */,
+				9BD5D2D522EC67D70069CC4D /* NSString+RYLSJ_UTF8Encoding.m */,
+			);
+			path = RYLSJNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +246,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				E3C65D37EFC2BFE6F468E995 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -222,7 +261,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "RYLSJNetworking_Tests" */;
 			buildPhases = (
-				6D605A47307FEC3E4A7B56D9 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -257,6 +295,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -294,28 +333,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6D605A47307FEC3E4A7B56D9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RYLSJNetworking_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D39995FE0F1AD8BA07C1F084 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -338,6 +355,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E3C65D37EFC2BFE6F468E995 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RYLSJNetworking_Example/Pods-RYLSJNetworking_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RYLSJNetworking_Example/Pods-RYLSJNetworking_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -345,8 +382,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD5D2DD22EC6DA60069CC4D /* RYLSJ_BaseViewController.m in Sources */,
+				ABD3EB2A22E9BDE000CF2B50 /* RYLSJ_RequestManager.m in Sources */,
+				9BD5D2E322EC6FEC0069CC4D /* RYLSJ_RootModel.m in Sources */,
+				9BD5D2D922EC69300069CC4D /* RYLSJ_CacheManager.m in Sources */,
+				9BD5D2E022EC6E6F0069CC4D /* RYLSJ_HomeViewController.m in Sources */,
 				6003F59E195388D20070C39A /* RYLSJ_AppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* RYLSJ_ViewController.m in Sources */,
+				9BD5D2D322EC65F60069CC4D /* RYLSJ_URLRequest.m in Sources */,
+				9BD5D2D622EC67D70069CC4D /* NSString+RYLSJ_UTF8Encoding.m in Sources */,
+				9BD5D2D022EC656E0069CC4D /* RYLSJ_RequestEngine.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,7 +523,7 @@
 				GCC_PREFIX_HEADER = "RYLSJNetworking/RYLSJNetworking-Prefix.pch";
 				INFOPLIST_FILE = "RYLSJNetworking/RYLSJNetworking-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rylsjnetworking.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -495,7 +539,7 @@
 				GCC_PREFIX_HEADER = "RYLSJNetworking/RYLSJNetworking-Prefix.pch";
 				INFOPLIST_FILE = "RYLSJNetworking/RYLSJNetworking-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rylsjnetworking.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -504,7 +548,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17791A37F69AAA4097D049E9 /* Pods-RYLSJNetworking_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -529,7 +572,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23EECF682A21EDBD876B08B6 /* Pods-RYLSJNetworking_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

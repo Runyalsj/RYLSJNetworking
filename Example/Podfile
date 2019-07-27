@@ -4,10 +4,6 @@ platform :ios, '8.0'
 
 target 'RYLSJNetworking_Example' do
   pod 'RYLSJNetworking', :path => '../'
-
-  target 'RYLSJNetworking_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod 'SDWebImage'
+  pod 'AFNetworking'
 end
