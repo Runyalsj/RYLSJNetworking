@@ -18,20 +18,17 @@ PODS:
     - AFNetworking
 
 DEPENDENCIES:
-  - RYLSJNetworking (from `../`)
+  - RYLSJNetworking (~> 0.1.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
-
-EXTERNAL SOURCES:
-  RYLSJNetworking:
-    :path: "../"
+    - RYLSJNetworking
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   RYLSJNetworking: 2ea1a9ce3386a40c124b4f9c6344beb8bddd35c6
 
-PODFILE CHECKSUM: aca718537c0a0f6b5bfa0426d207151b07c14d8a
+PODFILE CHECKSUM: 871400dcc6d4e3f94991c53bce0835b2602611bc
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.7.5
